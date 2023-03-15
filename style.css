@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+}
+
+body {
+    background-color: #D3DCED;
+}
+
+.logo {
+    border: 4px solid white;
+    height: 350px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.login {
+    border: 4px solid white;
+    height: 240px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EEF9;
+    margin-bottom: 10px;
+}
+
+.membro {
+    border: 4px solid white;
+    height: 90px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EEF9;
+    margin-top: 10px;
+}
+
+main {
+
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3DCED;
+
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.destaque {
+    color: #EE2091;
+    font-weight: bold;
+}
+
+.mensagem-logo {
+    margin: 4px;
+}
+
+.login>p,
+h3 {
+    margin-bottom: 6px;
+}
+
+
+
+.google {
+    width: 50px;
+
+}
+
+.conta-google {
+    display: flex;
+    gap: 6px;
+}
+
+
+
+a {
+    color: blue;
+}
+
+.div {
+    padding: 4px;
+}
+
+.erro-conta {
+    padding-top: 10px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #BBCDE7;
+
+}
+
+li {
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+
+
+}
+
+footer {
+    background-color: #D3DCED;
+}
+
+.main-cadastro {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: #D3DCED;
+}
+
+.cadastrar {
+    padding: 5px 30px;
+    color: white;
+    background-color: #EE2091;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.589);
+}
+
+.termos {
+    width: 300px;
+    font-size: 10px;
+    color: rgb(179, 175, 175);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.sexo {
+    font-weight: bold;
+}
+
+.genero-titulo {
+    font-weight: normal;
+    margin-bottom: 4px;
+
+}
+
+.name,
+.celular-email,
+.nova-senha {
+    padding: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 3px;
+
+
+
+}
+
+.celular-email,
+.nova-senha {
+    width: 307px;
+}
+
+.data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bola {
+    width: 10px;
+
+
+}
+
+.sexo {
+    margin-bottom: 6px;
+}
+
+.genero {
+    padding-right: 5px;
+}
+
+.titulo-cadastro>p {
+    margin: 7px 0px;
+}
+
+header {
+    margin: 10px;
+
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #EE2091;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo-red {
+    width: 100px;
+}
